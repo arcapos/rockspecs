@@ -1,11 +1,11 @@
 package = "luapgsql"
 version = "scm-5"
 source = {
-   url = "git://github.com/mbalmer/luapgsql";
+   url = "git://github.com/arcapos/luapgsql";
 }
 description = {
    summary = "A Lua Binding for PostgreSQL";
-   homepage = "http://github.com/mbalmer/luapgsql";
+   homepage = "http://github.com/arcapos/luapgsql";
    license = "3-clause BSD";
 }
 dependencies = {

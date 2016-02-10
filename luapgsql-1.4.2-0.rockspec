@@ -2,14 +2,14 @@ package = "luapgsql"
 version = "1.4.2-0"
 
 source = {
-	url = "http://github.com/mbalmer/luapgsql/archive/1.4.2.zip";
+	url = "http://github.com/arcapos/luapgsql/archive/1.4.2.zip";
 	md5 = "044cf06a9917099b740445fceeb08fc4";
 	dir = "luapgsql-1.4.2";
 }
 
 description = {
 	summary = "A Lua Binding for PostgreSQL";
-	homepage = "http://github.com/mbalmer/luapgsql";
+	homepage = "http://github.com/arcapos/luapgsql";
 	license = "3-clause BSD";
 }
 

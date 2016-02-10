@@ -1,11 +1,11 @@
 package = "luawebsocket"
 version = "scm-1"
 source = {
-   url = "git://github.com/mbalmer/luawebsocket"
+   url = "git://github.com/arcapos/luawebsocket"
 }
 description = {
    summary = "A WebSocket implementation for Lua, written in C",
-   homepage = "http://github.com/mbalmer/luawebsocket",
+   homepage = "http://github.com/arcapos/luawebsocket",
    license = "3-clause BSD",
 }
 dependencies = {

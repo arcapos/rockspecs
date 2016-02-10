@@ -1,11 +1,11 @@
 package = "luaunix"
 version = "scm-1"
 source = {
-   url = "git://github.com/mbalmer/luaunix"
+   url = "git://github.com/arcapos/luaunix"
 }
 description = {
    summary = "Unix bindings for Lua",
-   homepage = "http://github.com/mbalmer/luaunix",
+   homepage = "http://github.com/arcapos/luaunix",
    license = "3-clause BSD",
 }
 dependencies = {
