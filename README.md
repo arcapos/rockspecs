@@ -1,0 +1,1 @@
+Rockspecs for LuaRocks.
