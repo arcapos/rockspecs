@@ -1,8 +1,8 @@
 package = "luaproxy"
-version = "1.2.3-1"
+version = "1.1.4-1"
 source = {
 	url = "git://github.com/arcapos/luaproxy",
-	tag = "v1.2.3",
+	tag = "1.1.4"
 }
 description = {
 	summary = "A Lua proxy to access a Lua state from within another state",
@@ -11,12 +11,12 @@ description = {
 	license = "3-clause BSD",
 }
 dependencies = {
-	"lua >= 5.1",
+	"lua >= 5.1, < 5.4",
 }
 build = {
 	type = "builtin",
-		modules = {
-			["proxy"] = {
+	modules = {
+		proxy = {
 			sources = "luaproxy.c"
 		},
 	},
