@@ -9,7 +9,7 @@ description = {
    license = "3-clause BSD",
 }
 dependencies = {
-   "lua >= 5.1, < 5.3"
+   "lua >= 5.1, < 5.4"
 }
 external_dependencies = {
    platforms = {
@@ -32,7 +32,7 @@ build = {
       linux = {
          modules = {
             unix = {
-               libraries = {"bsd"},
+               libraries = {"bsd", "crypt"},
                incdirs = {"$(BSD_INCDIR)"},
                libdirs = {"$(BSD_LIBDIR)"}
             }

@@ -9,13 +9,22 @@ description = {
    license = "3-clause BSD",
 }
 dependencies = {
-   "lua >= 5.1, < 5.3"
+   "lua >= 5.1, < 5.4"
 }
 build = {
    type = "builtin",
    modules = {
       net = {
          sources = {"luanet.c"}
+      }
+   },
+   platforms = {
+      linux = {
+         modules = {
+            net = {
+               defines = {"_GNU_SOURCE"}
+            }
+         }
       }
    }
 }
