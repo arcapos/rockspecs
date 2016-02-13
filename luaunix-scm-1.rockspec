@@ -32,7 +32,7 @@ build = {
       linux = {
          modules = {
             unix = {
-               libraries = {"bsd"},
+               libraries = {"bsd", "crypt"},
                incdirs = {"$(BSD_INCDIR)"},
                libdirs = {"$(BSD_LIBDIR)"}
             }
