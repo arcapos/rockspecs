@@ -26,5 +26,14 @@ build = {
          incdirs = {"$(OPENSSL_INCDIR)"},
          libdirs = {"$(OPENSSL_LIBDIR)"}
       }
+   },
+   platforms = {
+      linux = {
+         modules = {
+            websocket = {
+               defines = {"_GNU_SOURCE"}
+            }
+         }
+      }
    }
 }
