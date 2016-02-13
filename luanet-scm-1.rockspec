@@ -17,5 +17,14 @@ build = {
       net = {
          sources = {"luanet.c"}
       }
+   },
+   platforms = {
+      linux = {
+         modules = {
+            net = {
+               defines = {"_GNU_SOURCE"}
+            }
+         }
+      }
    }
 }
