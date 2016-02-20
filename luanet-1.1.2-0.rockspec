@@ -1,7 +1,8 @@
 package = "luanet"
-version = "scm-1"
+version = "1.1.2-0"
 source = {
-   url = "git://github.com/arcapos/luanet"
+	url = "http://github.com/mbalmer/luapgsql/archive/1.1.2.zip";
+	dir = "luanet-1.1.2";
 }
 description = {
    summary = "Network access for Lua",
