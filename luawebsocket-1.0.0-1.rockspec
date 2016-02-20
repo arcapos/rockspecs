@@ -1,5 +1,5 @@
 package = "luawebsocket"
-version = "1.0.0-0"
+version = "1.0.0-1"
 
 source = {
 	url = "http://github.com/mbalmer/luawebsocket/archive/1.0.0.zip";
@@ -35,6 +35,7 @@ build = {
 				libraries = {"ssl", "crypto"},
 				incdirs = {"$(OPENSSL_INCDIR)"},
 				libdirs = {"$(OPENSSL_LIBDIR)"}
+			}
 		}
 	},
 	platforms = {
