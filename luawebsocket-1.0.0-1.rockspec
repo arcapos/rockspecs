@@ -25,17 +25,16 @@ external_dependencies = {
 
 build = {
 	type = "builtin",
-		modules = {
-			websocket = {
-				sources = {
-					"base64.c",
-					"websocket.c",
-					"luawebsocket.c"
-				},
-				libraries = {"ssl", "crypto"},
-				incdirs = {"$(OPENSSL_INCDIR)"},
-				libdirs = {"$(OPENSSL_LIBDIR)"}
-			}
+	modules = {
+		websocket = {
+			sources = {
+				"base64.c",
+				"websocket.c",
+				"luawebsocket.c"
+			},
+			libraries = {"ssl", "crypto"},
+			incdirs = {"$(OPENSSL_INCDIR)"},
+			libdirs = {"$(OPENSSL_LIBDIR)"}
 		}
 	},
 	platforms = {
