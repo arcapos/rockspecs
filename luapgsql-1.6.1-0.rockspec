@@ -1,5 +1,5 @@
 package = "luapgsql"
-version = "1.6.1-0"
+version = "1.6.1-1"
 
 source = {
 	url = "https://github.com/arcapos/luapgsql/archive/1.6.1.zip";
@@ -9,7 +9,7 @@ source = {
 
 description = {
 	summary = "A Lua Binding for PostgreSQL";
-	homepage = "http://github.com/mbalmer/luapgsql";
+	homepage = "https://github.com/arcapos/luapgsql";
 	license = "3-clause BSD";
 }
 
