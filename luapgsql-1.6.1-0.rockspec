@@ -1,10 +1,10 @@
 package = "luapgsql"
-version = "1.4.10-0"
+version = "1.6.1-0"
 
 source = {
-	url = "http://github.com/mbalmer/luapgsql/archive/1.4.10.zip";
-	md5 = "58adc9511c40368766f702f47fa9c8e7";
-	dir = "luapgsql-1.4.10";
+	url = "https://github.com/arcapos/luapgsql/archive/1.6.1.zip";
+	md5 = "f9d7cbb1d12d46b259bc556a096d51c5";
+	dir = "luapgsql-1.6.1";
 }
 
 description = {
