@@ -1,7 +1,7 @@
 package = "luanet"
 version = "1.1.2-0"
 source = {
-	url = "http://github.com/mbalmer/luapgsql/archive/1.1.2.zip";
+	url = "http://github.com/arcapos/luanet/archive/1.1.2.zip";
 	dir = "luanet-1.1.2";
 }
 description = {
