@@ -1,5 +1,5 @@
 package = "luapgsql"
-version = "1.6.1-1"
+version = "1.6.1-2"
 
 source = {
 	url = "https://github.com/arcapos/luapgsql/archive/1.6.1.zip";
@@ -14,7 +14,7 @@ description = {
 }
 
 dependencies = {
-	"lua >= 5.1, < 5.4";
+	"lua >= 5.1, < 5.5";
 }
 
 external_dependencies = {
